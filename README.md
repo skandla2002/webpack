@@ -7,6 +7,7 @@ webpack config detail
 
 ### 6 가지 주요 사항: webpack runs on Node.js version 8.x and higher.
 - Entry: 시작 지점(string, array)
+   -> usage: entry: string | [string]
 - Output: 최종 파일 생성 지점
 - Loaders: 변환된 파일 지정하여, 변경할때 사용할 로더를 정의함
            특정 유형의 파일을 변경함
